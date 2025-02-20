@@ -1,8 +1,13 @@
 const express = require('express');
 const app = express();
+const http = require('http');
 const port = 3005;
 
-app.get('/', (req, res) => {
+console.log(http.STATUS_CODES)
+
+
+
+app.get('/home', (req, res) => {
     res.send(`
         <h1 style="font-size: 3rem; font-family: Arial, sans-serif; color: #333;">
             Home Page
@@ -33,5 +38,6 @@ app.get('/', (req, res) => {
         </style>
     `);
 });
+
 
 app.listen(port, () => console.log(`Listening on port ${port}`));

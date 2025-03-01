@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <header>
-            <h1>Welcome to Animality</h1>
+            <h1>UPTOBOX</h1>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">About</a>

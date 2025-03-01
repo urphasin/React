@@ -5,10 +5,7 @@ import Footer from "./components/Footer.tsx";
 const App = () => {
     return (
         <div>
-            <Header></Header>
-            <MainContent></MainContent>
-            <Footer></Footer>
-            
+            Firebase Console
         </div>
     );
 };

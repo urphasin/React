@@ -6,6 +6,9 @@ const App = () => {
     return (
         <div>
             Firebase Console
+            <Header />
+            <MainContent />
+            <Footer/>
         </div>
     );
 };
